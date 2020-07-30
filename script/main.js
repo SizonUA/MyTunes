@@ -1,14 +1,15 @@
 import {
-  musicPlayerInit
-} from "./musicPlayer.js";
-
-import {
   radioPlayerInit
 } from "./radioPlayer.js";
 
 import {
   videoPlayerInit
 } from "./videoPlayer.js";
+
+import {
+  musicPlayerInit
+} from "./musicPlayer.js";
+
 
 
 //
@@ -34,6 +35,6 @@ playerBtn.forEach((btn, i) => btn.addEventListener('click', () => {
 
 
 // Call
-musicPlayerInit();
 radioPlayerInit();
 videoPlayerInit();
+musicPlayerInit();
